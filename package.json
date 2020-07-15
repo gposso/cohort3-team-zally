@@ -1,0 +1,24 @@
+{
+  "name": "covid-api",
+  "version": "1.0.0",
+  "description": "Project Cohort3-team-zally",
+  "main": "api/index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid",
+    "platzimaster"
+  ],
+  "author": "team-zally",
+  "license": "MIT"
+}
